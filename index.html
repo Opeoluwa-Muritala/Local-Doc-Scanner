@@ -2,15 +2,20 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#020617" />
-    <meta name="description" content="On-device document scanner with PDF and Excel OCR export." />
+    <meta
+      name="description"
+      content="On-device document scanner with PDF and Excel OCR export."
+    />
     <link rel="manifest" href="/manifest.json" />
-    <link rel="apple-touch-icon" href="/icons/icon-192.png" />
     <title>Local Doc Scanner</title>
+
+    <!-- Required by jscanify for browser document detection -->
+    <script async src="https://docs.opencv.org/4.7.0/opencv.js"></script>
   </head>
+
   <body>
-    <noscript>You need JavaScript enabled to use Local Doc Scanner.</noscript>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
