@@ -3,26 +3,29 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
+  {
   "scripts": {
-    "dev": "vite --host 0.0.0.0",
+    "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview --host 0.0.0.0"
+    "preview": "vite preview"
   },
   "dependencies": {
-    "@vitejs/plugin-react": "latest",
+    "@tailwindcss/postcss": "latest",
+    "tailwindcss": "latest",
+    "postcss": "latest",
     "vite": "latest",
-    "typescript": "latest",
     "react": "latest",
     "react-dom": "latest",
     "framer-motion": "latest",
-    "lucide-react": "latest",
     "jspdf": "latest",
     "xlsx": "latest",
-    "tesseract.js": "latest"
+    "tesseract.js": "latest",
+    "lucide-react": "latest"
   },
   "devDependencies": {
+    "@vitejs/plugin-react": "latest",
     "tailwindcss": "latest",
     "postcss": "latest",
     "autoprefixer": "latest"
-  }
+   }
 }
