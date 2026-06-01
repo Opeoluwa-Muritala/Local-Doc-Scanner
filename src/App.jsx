@@ -22,6 +22,7 @@ import {
   Upload,
   X,
 } from "lucide-react";
+import jscanify from "jscanify";
 
 const DB_NAME = "doc-scanner-local-db";
 const DB_VERSION = 1;
